@@ -1,0 +1,24 @@
+{
+  "name": "eth-utils",
+  "version": "0.0.1",
+  "description": "A package that provides common repetitive evm-based chains functionalities",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelerukjaymoh/eth-utils.git"
+  },
+  "keywords": [
+    "eth",
+    "utils",
+    "ethers"
+  ],
+  "author": "https://twitter.com/lelerukjaymoh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lelerukjaymoh/eth-utils/issues"
+  },
+  "homepage": "https://github.com/lelerukjaymoh/eth-utils#readme"
+}
