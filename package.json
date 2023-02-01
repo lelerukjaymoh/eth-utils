@@ -1,5 +1,5 @@
 {
-  "name": "eth-utils",
+  "name": "@jay/eth-utils",
   "version": "0.0.1",
   "description": "A package that provides common repetitive evm-based chains functionalities",
   "main": "index.ts",
