@@ -4,8 +4,7 @@
   "description": "A package that provides common repetitive evm-based chains functionalities",
   "main": "index.ts",
   "scripts": {
-    "test": "ts-node-dev test/stream.t.ts",
-    "test1": "ts-node-dev test/test.ts"
+    "test": "ts-node-dev test/index.t.ts"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import { Contract, providers, utils } from "ethers"
+import { Contract, providers } from "ethers"
 import routerABI from "../ABI/routerABI.json"
 
 class Decoder {
@@ -7,7 +7,6 @@ class Decoder {
     decodeRouterData(contractAddress: string, provider: providers.WebSocketProvider): Contract {
         return new Contract(contractAddress, routerABI, provider)
     }
-
 }
 
-export const contract = new Decoder()
+export const decoder = new Decoder()
