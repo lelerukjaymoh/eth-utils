@@ -1,2 +1,4 @@
-export { Decoder } from "./decoder";
-export { Streamer } from "./streamer"
+import { Decoder } from "./decoder";
+import { Streamer } from "./streamer"
+
+export { Decoder, Streamer }
