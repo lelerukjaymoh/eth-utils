@@ -1,1 +1,1 @@
-export * from "./decode"
+export { decoder as Decoder } from "./decode"

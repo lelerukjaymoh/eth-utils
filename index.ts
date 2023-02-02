@@ -1,2 +1,2 @@
-export { decoder } from "./decoder";
+export { Decoder } from "./decoder";
 export { Streamer } from "./streamer"

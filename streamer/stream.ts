@@ -4,8 +4,8 @@ import { streamUtils } from "./utils";
 export class Streamer {
     wsProvider: providers.WebSocketProvider
 
-    constructor(wsURL: string) {
-        this.wsProvider = new providers.WebSocketProvider(wsURL)
+    constructor(wsProvider: providers.WebSocketProvider) {
+        this.wsProvider = wsProvider
     }
 
     streamPendingTxns(callback: (txnResponse: providers.TransactionResponse | undefined) => void) {

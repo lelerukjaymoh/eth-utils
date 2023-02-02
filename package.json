@@ -1,10 +1,10 @@
 {
-  "name": "@jay/eth-utils",
-  "version": "0.0.1",
+  "name": "@lelerukjaymoh/eth-utils",
+  "version": "0.0.3",
   "description": "A package that provides common repetitive evm-based chains functionalities",
   "main": "index.ts",
   "scripts": {
-    "test": "ts-node-dev test/index.t.ts"
+    "test": "ts-node -r dotenv/config test/index.t.ts"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/lelerukjaymoh/eth-utils#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
-    "ts-node-dev": "^2.0.0"
+    "ts-node": "^10.9.1"
   }
 }
